@@ -1,5 +1,5 @@
 ## Introduction
-For the current coursework I’ve implemented agent based on MDP. It mainly relies on the principles of value iteration and maximum expected utility (MEU).
+For the current coursework I’ve implemented agent based on MDP. It mainly relies on the principles of value iteration and maximum expected utility (MEU). Additional files not included due to not being produced or edited by me. They can be found on http://ai.berkeley.edu/project_overview.html
 ## Description
 The main pattern that Pacman follows on his way to victory consists of building a representation of his world, where he stores the given rewards, which are based on the current state of the world, as well the utilities for each position, which are calculated, based on the rewards. After he got all the utilities calculated, using value iteration, he jumps to next bit, where he calculated the expected utilities for all his possible moves and chooses the one that seems best.
 ## Strategy
